@@ -1,0 +1,79 @@
+
+      nav {
+        display: flex;
+        background-color: rgb(11, 11, 62);
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        font-size: 1.5rem;
+      }
+
+      nav ul {
+        font-size: large;
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+        list-style: none;
+      }
+
+      nav ul li a {
+        font-size: 16px;
+        padding: 0 15px;
+        color: white;
+        transition: 0.3s;
+        text-transform: uppercase;
+      }
+
+      nav ul li a:hover {
+        transition: 0.2s;
+        color: aqua;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      .container {
+        position: relative;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+
+      .mowni {
+        padding-top: 130px;
+      }
+      .mowni img {
+        border-style: none;
+        border-radius: 100px;
+        margin: 0 auto;
+        max-width: 400px;
+        display: block;
+        height:20rem;
+      }
+
+      h1 {
+        color: black;
+        text-align: center;
+        font-size: 24px;
+        margin: 30px 0px 100px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .aboutme-text {
+        width: 90px;
+        max-width: 110px;
+        height: auto;
+        background-color: rgb(222, 91, 159);
+        text-align: center;
+        padding: 40px 50px 70px;
+        margin: 0 auto;
+      }
+  .top {
+text-align: center;
+color: black;
+   }

@@ -1,14 +1,106 @@
 <html>
   <head>
-    <title>contact details</title>
+    <title>Contact</title>
+    <style>
+      /* ul {
+        list-style: none;
+      } */
+
+      .contact-form {
+        max-width: 800px;
+        display: flex;
+        text-align: left;
+        max-width: 1100px;
+        margin: 0 auto;
+        color: white;
+      }
+
+      .contact-form label,
+      p {
+        display: block;
+        margin-bottom: 9px;
+        color: rgb(255, 0, 140);
+        font-weight: bold;
+        font-size: large;
+      }
+
+      .contact-details {
+        flex: 1;
+        margin-right: 50px;
+        font-weight: bold;
+      }
+
+      .contact-details input {
+        width: 100%;
+
+        border-radius: 5px;
+        border: 0px;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+      }
+
+      .message button {
+        color: blue;
+        border: 0;
+        border-radius: 5px;
+        background-color: aqua;
+        width: 140px;
+        height: 40px;
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .message button:hover {
+        background: black;
+        color: whitesmoke;
+        transition: 0.2s;
+      }
+
+      h1 {
+        font-style: inherit;
+        color: blueviolet;
+      }
+    </style>
   </head>
 
   <body background="download.jpg">
-    <pre>
-   <span style="color: navy;font-size: 300%">  
-    
-   MAIL-ID:</span> <span style="color: rgb(255, 0, 140);font-size: 100%">                                                                                                                                                                                                        
-     --------------</span>
-</pre>
+    <h1>Use this form to contact me</h1>
+    <br />
+    <p text-align="right"><a href="introduction.html">Back to home page</a></p>
+    <form class="contact-form">
+      <div class="contactDetails">
+        <label for="name">Name</label>
+        <input type="text" id="Your Name" placeholder="Your Name" />
+        <br />
+        <br />
+        <label for="subject">Reason for conatct</label>
+        <input
+          type="text"
+          id="Reason for conatct"
+          placeholder="Reason for conatcting"
+        />
+        <br />
+        <br />
+        <br />
+        <p>Priority:</p>
+        <label><input type="radio" name="priority" />High </label>
+        <label><input type="radio" name="priority" />Low </label>
+
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Your email address" />
+        <br />
+        <br />
+        <label for="msg">Message</label>
+        <textarea id="msg" row="15"></textarea>
+        <br />
+        <br />
+        <button class="message" type="button">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
