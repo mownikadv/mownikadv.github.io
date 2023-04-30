@@ -3,7 +3,7 @@
     <title>Education</title>
     <style >
       h1{
-        color: rgb(52, 52, 117);
+        color: rgb(11, 11, 62);
       }
 /* ol{
   color: rgb(52, 52, 117);
@@ -14,21 +14,67 @@
         font-variant-caps: titling-case;
         float: initial;
       }
+
+      #tab {
+        display: flex;
+        background-color: rgb(11, 11, 62);
+        justify-content: center;
+        position:relative;
+        width:100%;
+        z-index: 1;
+        font-size: 1.5rem;
+        margin:0%;
+      }
+
+       #tab ul {
+        font-size: large;
+        display: flex;
+        align-items: center;
+        /* padding: 0 10%; */
+        list-style: none;
+      }
+
+     #tab ul li a {
+        font-size: 16px;
+        padding: 0 15px;
+        color: white;
+        transition: 0.3s;
+        text-transform: uppercase;
+      }
+
+      #tab ul li a:hover {
+        transition: 0.2s;
+        color: aqua;
+      } 
+
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
 
   <body background="download.jpg">
+    <div id="tab">
+      
+      <ul>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="ContactDetails.html">Contact</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="PlacesVisited.html">Visits</a></li>
+        <li><a href="Hobbies.html">Hobbies</a></li>
+      </ul>
+    </div>
     <br>
-    <h1><b>STUDIED:</b></h1>
+    <h1><b>Studied: </b></h1>
 <br>
     <div class="schools">
       <ol>
-        <li>Primary schooling at Nethaji Model School, Kadur, CHIKMAGALUR</li>
-        <li>High school at BGS, Arsikere, HASSAN</li>
-        <li>Pre-University at <a href="Alvas.jpg" target="_blank">Alvas college</a>, Moodbidri, Uttarkannada</li>
-        <li>Bachelor of Engineering at <a href="mce.jpg" target="_blank">MCE</a> Hassan</li>
+        <li>Primary schooling at Nethaji Model School, Kadur, Chikkamagluru</li>
+        <li>High school at BGS, Arsikere, Hassan</li>
+        <li>Pre-University at <a href="Alvas.jpg" target="_blank">Alvas College</a>, Moodbidri, UttarKannada</li>
+        <li>Bachelor of Engineering at <a href="mce.jpg" target="_blank">MCE,</a> Hassan</li>
       </ol>
     </div>
-    <p><a href="introduction.html">Back to home page</a></p>
+    
   </body>
 </html>

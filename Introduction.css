@@ -65,10 +65,10 @@
       }
 
       .aboutme-text {
-        width: 90px;
-        max-width: 110px;
+        width: 50%;
+        color:azure;
         height: auto;
-        background-color: rgb(222, 91, 159);
+        background-color: rgb(11, 11, 62);
         text-align: center;
         padding: 40px 50px 70px;
         margin: 0 auto;
@@ -76,4 +76,9 @@
   .top {
 text-align: center;
 color: black;
+font-weight: bold;
+   }
+   .heading{
+  font-size: "large";
+    color: rgb(0, 170, 255);
    }

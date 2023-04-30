@@ -13,10 +13,10 @@
         color: darkgreen;
         font-size: large;
       } */
-h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: blueviolet;
-}
+      h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: blueviolet;
+      }
       nav {
         /* background-color: rgb(1, 1, 62); */
         justify-content: space-around;
@@ -29,11 +29,11 @@ h1{
       }
 
       nav ul {
-        display:inline;
+        display: inline;
         align-items: center;
         padding: 0 10%;
-        list-style:disc;  
-        margin: 7rem;  
+        list-style: disc;
+        margin: 7rem;
       }
 
       nav ul li a {
@@ -53,24 +53,75 @@ h1{
         text-decoration: none;
       }
 
-      .back{
-        text-decoration: underline;
+      .top {
+        text-align: center;
+        color: black;
+      }
+
+      #tab {
+        display: flex;
+        background-color: rgb(11, 11, 62);
+        justify-content: center;
+        position:relative;
+        width:100%;
+        z-index: 1;
+        font-size: 1.5rem;
+        margin:0%;
+      }
+
+       #tab ul {
+        font-size: large;
+        display: flex;
+        align-items: center;
+        /* padding: 0 10%; */
+        list-style: none;
+      }
+
+     #tab ul li a {
+        font-size: 16px;
+        padding: 0 15px;
+        color: white;
+        transition: 0.3s;
+        text-transform: uppercase;
+      }
+
+      #tab ul li a:hover {
+        transition: 0.2s;
+        color: aqua;
+      } 
+
+      .head{
+        font-size:1.7rem;
+        color: rgb(11, 11, 62);
+        font-weight: bold;
+        
       }
     </style>
   </head>
   <body background="download.jpg">
+    <div id="tab">
+      <a href="#top"></a>
+      <ul>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="ContactDetails.html">Contact</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="PlacesVisited.html">Visits</a></li>
+        <li><a href="Hobbies.html">Hobbies</a></li>
+      </ul>
+    </div>
+    <br />
     <br>
-    <h1>You will find me doing one of these on holidays  :) :)</h1>
+    <p class="head">You will find me doing one of these on holidays :) :)</p>
     <nav>
       <ul>
         <li><a href="Philately.html">Philately</a></li>
         <li><a href="Numismatics.html">Numismatics</a></li>
         <li><a href="Gardening.html">Gardening</a></li>
         <li><a href="Singing.html">Singing</a></li>
-        <li><a href="acting.html">acting</a></li>
+        <li><a href="Acting.html">acting</a></li>
       </ul>
     </nav>
-    <br>
-    <p class="back"><a href="introduction.html">Back to home page</a></p>
+    <br />
+    
   </body>
 </html>
