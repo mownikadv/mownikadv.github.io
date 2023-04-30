@@ -1,4 +1,7 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
       nav {
         display: flex;
         background-color: rgb(11, 11, 62);
@@ -7,6 +10,7 @@
         width: 100%;
         z-index: 1;
         font-size: 1.5rem;
+        height:10%;
       }
 
       nav ul {
@@ -36,9 +40,9 @@
       .container {
         position: relative;
         width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 15px;
+        /* max-width: 1200px; */
+        /* margin: 0 auto;
+        padding: 0 15px; */
       }
 
       .mowni {
@@ -46,18 +50,18 @@
       }
       .mowni img {
         border-style: none;
-        border-radius: 100px;
+        border-radius: 50%;
         margin: 0 auto;
-        max-width: 400px;
+        width: 400px;
         display: block;
-        height:20rem;
+        height: 400px;
       }
 
       h1 {
         color: rgb(102, 137, 227);
         text-align: center;
         font-size: 24px;
-        margin: 30px 0px 100px;
+        margin: 30px 0px;
       }
 
       h2 {
@@ -81,4 +85,7 @@ font-weight: bold;
    .heading{
   font-size: "large";
     color: rgb(0, 170, 255);
+   }
+   p{
+    padding: 2% 2%;
    }
